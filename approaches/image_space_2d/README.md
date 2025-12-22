@@ -15,13 +15,15 @@ The main implementation is provided in the notebook `image_space_zone_localizati
 - Frame-level and video-based processing
 - Visualization of zones and localization results
 
-## File Overview
-Main notebook containing the full pipeline:
-- Zone definition and configuration
-- Loading detection results (e.g., person bounding boxes)
-- Image-space zone assignment logic
-- Visualization of zone boundaries and assignments
-- Frame-level and video-level processing utilities
+## Expected Folder Structure
+The module assumes the following directory structure:
+```pgsql
+image_space_2d/
+├── images/
+├── json/
+├── image_space_zone_localization.ipynb
+└── zones_camera.json
+```
 
 ## Pipeline Overview
 
